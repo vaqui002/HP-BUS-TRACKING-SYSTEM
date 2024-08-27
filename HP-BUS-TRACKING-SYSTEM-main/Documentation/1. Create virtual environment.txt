@@ -1,0 +1,18 @@
+Step 1: Installing the virtual environment(venv)
+
+	pip install virtualenv
+
+Step 2: Create a virtual environment
+	python -m venv venv_name
+
+
+Step 3:Activate the Virtual Environment:
+	venv_name\Scripts\activate
+
+ //To deactivate the virtual environment, simply run:  deactivate
+
+Step 4:Install requirements in the venv
+	pip install -r requirements.txt
+
+Step 5:start scripts
+	python app.py 
